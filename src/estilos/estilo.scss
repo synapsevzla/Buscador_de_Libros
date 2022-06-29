@@ -1,0 +1,34 @@
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+.webtitle {
+    font-weight: bolder;
+    color: #fff;
+    font-size: 30px;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(46, 101, 163);
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.imagenfondo{
+    position: absolute;
+    height: 30px;
+    z-index: 0;
+}
+
+.BarradeNavegacion{
+    width: 100%;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+}
+
+@media (max-width:640px) {
+    .webtitle{
+        font-size: 1.5rem !important;
+    }
+}
